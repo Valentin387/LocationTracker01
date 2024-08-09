@@ -1,7 +1,7 @@
 # Real-Time Location Manager (Kotlin)
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.8.0-blueviolet?style=for-the-badge&logo=kotlin)
-![Android](https://img.shields.io/badge/Android-34-green?style=for-the-badge&logo=android)
+![Android](https://img.shields.io/badge/Android-14-green?style=for-the-badge&logo=android)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Valentin387/LocationTracker01?style=for-the-badge)
 ![Issues](https://img.shields.io/github/issues/Valentin387/LocationTracker01?style=for-the-badge)
 ![Pull Requests](https://img.shields.io/github/issues-pr/Valentin387/LocationTracker01?style=for-the-badge)
