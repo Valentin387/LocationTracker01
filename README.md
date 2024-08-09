@@ -1,8 +1,12 @@
-Here's the updated README with the additional sidenote:
-
----
-
 # Real-Time Location Manager (Kotlin)
+
+![Kotlin](https://img.shields.io/badge/Kotlin-1.8.0-blueviolet?style=for-the-badge&logo=kotlin)
+![Android](https://img.shields.io/badge/Android-12-green?style=for-the-badge&logo=android)
+![GitHub last commit](https://img.shields.io/github/last-commit/YourUsername/YourRepository?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/YourUsername/YourRepository?style=for-the-badge)
+![Pull Requests](https://img.shields.io/github/issues-pr/YourUsername/YourRepository?style=for-the-badge)
+![License](https://img.shields.io/github/license/YourUsername/YourRepository?style=for-the-badge)
+
 
 This Kotlin application manages the user's location in real-time using a foreground service. The project is based on a 2023 tutorial by Phillip Lackner, with updates to ensure compatibility as of August 2024.
 
@@ -66,7 +70,3 @@ If you want your app to perform tasks while it’s not in the foreground, a comm
 ### 2. **Background Tasks**
 
 For tasks that don’t need to keep the app running but require background processing, you can use:
-
----
-
-This should provide users with a clear understanding of the project while also giving them insights into foreground services and background tasks.
