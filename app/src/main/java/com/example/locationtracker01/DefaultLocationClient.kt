@@ -22,7 +22,7 @@ class DefaultLocationClient (
 ): LocationClient {
 
     @SuppressLint("MissingPermission")
-    override fun getLocalUpdates(interval: Long): Flow<Location> {
+    override fun getLocationUpdates(interval: Long): Flow<Location> {
         return callbackFlow {
             if(!context.hasLocationPermission()) {
                 throw LocationClient.LocationException("Missing location permission")
