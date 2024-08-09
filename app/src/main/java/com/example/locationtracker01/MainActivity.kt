@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
 
         //we just assume the user accepts to grant all the permissions
+        //in the real life, you should fine-grained permission handling here
         ActivityCompat.requestPermissions(
 
             this,
@@ -49,15 +50,19 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(p0: View?) {
         when(p0?.id) {
             R.id.btn_start -> {
+                //we send an intent to our service to start the location tracking
                 Intent(applicationContext, LocationService::class.java).apply {
                     action = LocationService.ACTION_START
                     startService(this)
                 }
             }
             R.id.btn_stop -> {
+                //we send an intent to our service to stop the location tracking
                 Intent(applicationContext, LocationService::class.java).apply {
                     action = LocationService.ACTION_STOP
+                    //send this command to the service
                     startService(this)
+
                 }
             }
         }

@@ -5,7 +5,7 @@ import android.content.pm.PackageManager
 
 fun Context.hasLocationPermission(): Boolean {
     return ContextCompat.checkSelfPermission(
-        this,
+        this, //the context
         Manifest.permission.ACCESS_COARSE_LOCATION
     ) == PackageManager.PERMISSION_GRANTED &&
             ContextCompat.checkSelfPermission(
